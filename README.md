@@ -1,6 +1,12 @@
 # Claude Term
 
-A mobile terminal app for remotely connecting to Claude Code.
+<p align="center">
+  <img src="assets/icon/app_icon_1024.png" width="128" alt="Claude Term Icon" />
+</p>
+
+<p align="center">
+  A mobile terminal app for remotely connecting to Claude Code.
+</p>
 
 [English](#english) | [中文](#中文) | [日本語](#日本語)
 
