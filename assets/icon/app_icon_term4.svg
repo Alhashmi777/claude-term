@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="ctGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#daa06d"/>
+      <stop offset="100%" style="stop-color:#c96e3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 纯黑背景 -->
+  <rect x="32" y="32" width="448" height="448" rx="100" fill="#000"/>
+
+  <!-- claude - Palatino 风格 -->
+  <text x="256" y="268"
+        font-family="Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif"
+        font-size="94"
+        font-weight="normal"
+        font-style="italic"
+        fill="url(#ctGrad4)"
+        text-anchor="middle">claude</text>
+
+  <!-- term - 小写等宽 -->
+  <text x="256" y="348"
+        font-family="'Courier New', Courier, monospace"
+        font-size="40"
+        fill="url(#ctGrad4)"
+        text-anchor="middle"
+        letter-spacing="8">term</text>
+
+</svg>

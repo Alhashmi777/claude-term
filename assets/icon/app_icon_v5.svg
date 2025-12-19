@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- Claude 橙色渐变 -->
+    <linearGradient id="claudeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9966"/>
+      <stop offset="100%" style="stop-color:#ff5e62"/>
+    </linearGradient>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1b4e"/>
+      <stop offset="100%" style="stop-color:#1a1333"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 紫色背景 -->
+  <rect x="32" y="32" width="448" height="448" rx="100" ry="100" fill="url(#darkBg)"/>
+
+  <!-- 终端窗口 - 3D 效果 -->
+  <g transform="translate(256, 240)">
+    <!-- 窗口阴影 -->
+    <rect x="-145" y="-105" width="290" height="210" rx="16" fill="#000" opacity="0.3" transform="translate(8, 8)"/>
+    <!-- 窗口主体 -->
+    <rect x="-145" y="-105" width="290" height="210" rx="16" fill="#1e1e2e"/>
+    <!-- 顶栏 -->
+    <rect x="-145" y="-105" width="290" height="36" rx="16" ry="16" fill="#313147"/>
+    <rect x="-145" y="-85" width="290" height="16" fill="#313147"/>
+    <!-- 按钮 -->
+    <circle cx="-115" cy="-87" r="8" fill="#ff5f57"/>
+    <circle cx="-91" cy="-87" r="8" fill="#febc2e"/>
+    <circle cx="-67" cy="-87" r="8" fill="#28c840"/>
+  </g>
+
+  <!-- Claude "C" 与终端光标结合 -->
+  <g transform="translate(256, 280)">
+    <!-- 大写 C -->
+    <path d="M 30 -60
+             A 70 70 0 1 0 30 60
+             L 30 35
+             A 45 45 0 1 1 30 -35 Z"
+          fill="url(#claudeGradient)"/>
+    <!-- 光标 -->
+    <rect x="45" y="-30" width="16" height="60" rx="4" fill="url(#claudeGradient)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+</svg>

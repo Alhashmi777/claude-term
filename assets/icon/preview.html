@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Claude Term - 最终方案</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #000;
+      color: white;
+      padding: 40px;
+      margin: 0;
+      min-height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      font-size: 22px;
+      color: #daa06d;
+      margin-bottom: 40px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .icon-box {
+      background: #0a0a0a;
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      border: 1px solid #222;
+    }
+    .icon-box:hover {
+      border-color: #daa06d;
+    }
+    .icon-box h3 {
+      margin: 0 0 20px 0;
+      color: #888;
+      font-size: 14px;
+    }
+    .preview {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 25px;
+    }
+    .preview object, .preview img {
+      border-radius: 22%;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    }
+    .size-label {
+      font-size: 11px;
+      color: #444;
+      margin-top: 10px;
+    }
+    .size-group { text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>claude term - Claude Code 风格</h1>
+
+  <div class="container">
+    <div class="icon-box">
+      <h3>v1 - 斜体 + 紧凑间距</h3>
+      <div class="preview">
+        <div class="size-group">
+          <object type="image/svg+xml" data="app_icon_term.svg" width="200" height="200"></object>
+          <div class="size-label">200px</div>
+        </div>
+        <div class="size-group">
+          <object type="image/svg+xml" data="app_icon_term.svg" width="80" height="80"></object>
+          <div class="size-label">80px</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-box">
+      <h3>v2 - 斜体粗体 + 宽间距</h3>
+      <div class="preview">
+        <div class="size-group">
+          <object type="image/svg+xml" data="app_icon_term2.svg" width="200" height="200"></object>
+          <div class="size-label">200px</div>
+        </div>
+        <div class="size-group">
+          <object type="image/svg+xml" data="app_icon_term2.svg" width="80" height="80"></object>
+          <div class="size-label">80px</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-box">
+      <h3>v3 - 正体（不斜）</h3>
+      <div class="preview">
+        <div class="size-group">
+          <object type="image/svg+xml" data="app_icon_term3.svg" width="200" height="200"></object>
+          <div class="size-label">200px</div>
+        </div>
+        <div class="size-group">
+          <object type="image/svg+xml" data="app_icon_term3.svg" width="80" height="80"></object>
+          <div class="size-label">80px</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-box">
+      <h3>v4 - Palatino 斜体</h3>
+      <div class="preview">
+        <div class="size-group">
+          <object type="image/svg+xml" data="app_icon_term4.svg" width="200" height="200"></object>
+          <div class="size-label">200px</div>
+        </div>
+        <div class="size-group">
+          <object type="image/svg+xml" data="app_icon_term4.svg" width="80" height="80"></object>
+          <div class="size-label">80px</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="claudeBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e07a5f"/>
+      <stop offset="100%" style="stop-color:#cc5a3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Claude 品牌背景 -->
+  <rect x="32" y="32" width="448" height="448" rx="100" fill="url(#claudeBg2)"/>
+
+  <!-- Claude 星芒 - 简化版本 -->
+  <g transform="translate(256, 240)">
+    <!-- 主体星芒 -->
+    <path d="M 0 -120
+             Q 15 -40 0 0
+             Q -15 -40 0 -120 Z" fill="white"/>
+    <path d="M 0 120
+             Q -15 40 0 0
+             Q 15 40 0 120 Z" fill="white"/>
+    <path d="M -120 0
+             Q -40 -15 0 0
+             Q -40 15 -120 0 Z" fill="white"/>
+    <path d="M 120 0
+             Q 40 15 0 0
+             Q 40 -15 120 0 Z" fill="white"/>
+
+    <!-- 中心 -->
+    <circle cx="0" cy="0" r="30" fill="white"/>
+  </g>
+
+  <!-- 终端光标 - 右下角 -->
+  <rect x="350" y="360" width="80" height="80" rx="16" fill="rgba(0,0,0,0.25)"/>
+  <text x="365" y="418" font-family="SF Mono, monospace" font-size="48" fill="white">&gt;</text>
+
+</svg>

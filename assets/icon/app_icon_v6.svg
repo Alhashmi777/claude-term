@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- 霓虹渐变 -->
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00f5d4"/>
+      <stop offset="50%" style="stop-color:#00bbf9"/>
+      <stop offset="100%" style="stop-color:#9b5de5"/>
+    </linearGradient>
+    <linearGradient id="bgGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a3e"/>
+    </linearGradient>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 深色背景 -->
+  <rect x="32" y="32" width="448" height="448" rx="100" ry="100" fill="url(#bgGrad6)"/>
+
+  <!-- 霓虹终端框 -->
+  <rect x="96" y="120" width="320" height="272" rx="24" fill="none" stroke="url(#neonGradient)" stroke-width="4" filter="url(#neonGlow)"/>
+
+  <!-- 命令行内容 -->
+  <g font-family="SF Mono, Monaco, monospace" filter="url(#neonGlow)">
+    <!-- 提示符行 -->
+    <text x="130" y="200" font-size="36" fill="#00f5d4">→</text>
+    <text x="175" y="200" font-size="32" fill="#ffffff">claude</text>
+
+    <!-- AI 响应符号 -->
+    <text x="130" y="260" font-size="36" fill="#9b5de5">◆</text>
+    <text x="175" y="260" font-size="28" fill="#e0e0e0">Ready</text>
+  </g>
+
+  <!-- 底部光标 -->
+  <rect x="130" y="300" width="180" height="4" rx="2" fill="url(#neonGradient)" filter="url(#neonGlow)">
+    <animate attributeName="width" values="180;80;180" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- 装饰点 -->
+  <circle cx="380" cy="160" r="8" fill="#00f5d4" opacity="0.8"/>
+  <circle cx="360" cy="340" r="6" fill="#9b5de5" opacity="0.8"/>
+
+</svg>

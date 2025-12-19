@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="ctGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d9a87c"/>
+      <stop offset="100%" style="stop-color:#bf6d42"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 纯黑背景 -->
+  <rect x="32" y="32" width="448" height="448" rx="88" fill="#000"/>
+
+  <!-- claude - 不斜体版本 -->
+  <text x="256" y="265"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="96"
+        font-weight="500"
+        fill="url(#ctGrad3)"
+        text-anchor="middle"
+        letter-spacing="-2">claude</text>
+
+  <!-- term -->
+  <text x="256" y="350"
+        font-family="SF Mono, Monaco, Consolas, monospace"
+        font-size="42"
+        fill="url(#ctGrad3)"
+        text-anchor="middle"
+        letter-spacing="10">term</text>
+
+</svg>

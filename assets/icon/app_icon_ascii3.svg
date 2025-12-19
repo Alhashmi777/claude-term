@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="claudeOrange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#da7756"/>
+      <stop offset="100%" style="stop-color:#c96a45"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 深灰背景 -->
+  <rect width="512" height="512" rx="80" fill="#1a1a1a"/>
+
+  <!-- 终端窗口 -->
+  <rect x="36" y="36" width="440" height="440" rx="16" fill="#0d0d0d" stroke="#333" stroke-width="1"/>
+
+  <!-- 终端顶栏 -->
+  <rect x="36" y="36" width="440" height="36" rx="16" ry="16" fill="#2a2a2a"/>
+  <rect x="36" y="56" width="440" height="16" fill="#2a2a2a"/>
+
+  <!-- 红黄绿按钮 -->
+  <circle cx="62" cy="54" r="7" fill="#ff5f56"/>
+  <circle cx="84" cy="54" r="7" fill="#ffbd2e"/>
+  <circle cx="106" cy="54" r="7" fill="#27c93f"/>
+
+  <!-- ASCII Art: claude -->
+  <text font-family="Menlo, Monaco, 'Courier New', monospace"
+        font-size="8.5"
+        fill="url(#claudeOrange)"
+        xml:space="preserve">
+    <tspan x="80" y="135">██████╗██╗      █████╗ ██╗   ██╗██████╗ ███████╗</tspan>
+    <tspan x="80" y="147">██╔════╝██║     ██╔══██╗██║   ██║██╔══██╗██╔════╝</tspan>
+    <tspan x="80" y="159">██║     ██║     ███████║██║   ██║██║  ██║█████╗</tspan>
+    <tspan x="80" y="171">██║     ██║     ██╔══██║██║   ██║██║  ██║██╔══╝</tspan>
+    <tspan x="80" y="183">╚██████╗███████╗██║  ██║╚██████╔╝██████╔╝███████╗</tspan>
+    <tspan x="80" y="195">╚═════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝</tspan>
+  </text>
+
+  <!-- ASCII Art: term -->
+  <text font-family="Menlo, Monaco, 'Courier New', monospace"
+        font-size="8.5"
+        fill="url(#claudeOrange)"
+        xml:space="preserve">
+    <tspan x="120" y="250">████████╗███████╗██████╗ ███╗   ███╗</tspan>
+    <tspan x="120" y="262">╚══██╔══╝██╔════╝██╔══██╗████╗ ████║</tspan>
+    <tspan x="120" y="274">   ██║   █████╗  ██████╔╝██╔████╔██║</tspan>
+    <tspan x="120" y="286">   ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║</tspan>
+    <tspan x="120" y="298">   ██║   ███████╗██║  ██║██║ ╚═╝ ██║</tspan>
+    <tspan x="120" y="310">   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝</tspan>
+  </text>
+
+  <!-- 底部命令行提示 -->
+  <text x="60" y="400" font-family="Menlo, Monaco, monospace" font-size="14" fill="#666">$</text>
+  <rect x="80" y="388" width="12" height="18" rx="2" fill="url(#claudeOrange)">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>

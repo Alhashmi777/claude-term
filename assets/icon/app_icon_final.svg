@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 外层圆角 -->
+  <rect width="512" height="512" rx="80" fill="#1e1e1e"/>
+
+  <!-- 终端窗口 -->
+  <rect x="32" y="32" width="448" height="448" rx="16" fill="#141414"/>
+
+  <!-- 顶栏 -->
+  <rect x="32" y="32" width="448" height="32" rx="16" ry="16" fill="#3d3d3d"/>
+  <rect x="32" y="52" width="448" height="12" fill="#3d3d3d"/>
+
+  <!-- 红黄绿按钮 -->
+  <circle cx="56" cy="48" r="7" fill="#ff5f56"/>
+  <circle cx="78" cy="48" r="7" fill="#ffbd2e"/>
+  <circle cx="100" cy="48" r="7" fill="#28c840"/>
+
+  <!-- ASCII Art: CLAUDE -->
+  <text font-family="Menlo, Monaco, 'Courier New', monospace"
+        font-size="12"
+        fill="#e8967a"
+        stroke="#141414"
+        stroke-width="0.15"
+        xml:space="preserve">
+    <tspan x="42" y="105"> ██████╗ ██╗       █████╗  ██╗   ██╗ ██████╗  ███████╗</tspan>
+    <tspan x="42" y="118">██╔════╝ ██║      ██╔══██╗ ██║   ██║ ██╔══██╗ ██╔════╝</tspan>
+    <tspan x="42" y="131">██║      ██║      ███████║ ██║   ██║ ██║  ██║ █████╗</tspan>
+    <tspan x="42" y="144">██║      ██║      ██╔══██║ ██║   ██║ ██║  ██║ ██╔══╝</tspan>
+    <tspan x="42" y="157">╚██████╗ ███████╗ ██║  ██║ ╚██████╔╝ ██████╔╝ ███████╗</tspan>
+    <tspan x="42" y="170"> ╚═════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═════╝  ╚═════╝  ╚══════╝</tspan>
+  </text>
+
+  <!-- ASCII Art: TERM -->
+  <text font-family="Menlo, Monaco, 'Courier New', monospace"
+        font-size="12"
+        fill="#e8967a"
+        stroke="#141414"
+        stroke-width="0.15"
+        xml:space="preserve">
+    <tspan x="42" y="240">████████╗ ███████╗ ██████╗  ███╗   ███╗</tspan>
+    <tspan x="42" y="253">╚══██╔══╝ ██╔════╝ ██╔══██╗ ████╗ ████║</tspan>
+    <tspan x="42" y="266">   ██║    █████╗   ██████╔╝ ██╔████╔██║</tspan>
+    <tspan x="42" y="279">   ██║    ██╔══╝   ██╔══██╗ ██║╚██╔╝██║</tspan>
+    <tspan x="42" y="292">   ██║    ███████╗ ██║  ██║ ██║ ╚═╝ ██║</tspan>
+    <tspan x="42" y="305">   ╚═╝    ╚══════╝ ╚═╝  ╚═╝ ╚═╝     ╚═╝</tspan>
+  </text>
+
+  <!-- 小宠物 - 像素机器人 -->
+  <g transform="translate(350, 385)">
+    <!-- 星星装饰 -->
+    <text font-family="Menlo, Monaco, monospace" font-size="12" fill="#e8967a">
+      <tspan x="8" y="8">*</tspan>
+      <tspan x="88" y="8">*</tspan>
+      <tspan x="8" y="58">*</tspan>
+      <tspan x="88" y="58">*</tspan>
+      <tspan x="98" y="35">*</tspan>
+      <tspan x="0" y="35">*</tspan>
+    </text>
+
+    <!-- 身体: 7x4方块 (56x32) -->
+    <rect x="24" y="12" width="56" height="32" fill="#e8967a"/>
+
+    <!-- 眼睛 -->
+    <rect x="34" y="23" width="6" height="8" fill="#141414"/>
+    <rect x="62" y="23" width="6" height="8" fill="#141414"/>
+
+    <!-- 手臂 -->
+    <rect x="18" y="23" width="6" height="8" fill="#e8967a"/>
+    <rect x="80" y="23" width="6" height="8" fill="#e8967a"/>
+
+    <!-- 脚 -->
+    <rect x="32" y="48" width="5" height="8" fill="#e8967a"/>
+    <rect x="40" y="48" width="5" height="8" fill="#e8967a"/>
+    <rect x="56" y="48" width="5" height="8" fill="#e8967a"/>
+    <rect x="64" y="48" width="5" height="8" fill="#e8967a"/>
+  </g>
+
+</svg>

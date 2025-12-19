@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="electric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="bg12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030712"/>
+      <stop offset="100%" style="stop-color:#111827"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="32" y="32" width="448" height="448" rx="100" fill="url(#bg12)"/>
+
+  <!-- 终端窗口框架 -->
+  <rect x="80" y="100" width="352" height="260" rx="20" fill="#1f2937" stroke="url(#electric)" stroke-width="3"/>
+
+  <!-- 顶栏 -->
+  <rect x="80" y="100" width="352" height="40" rx="20" ry="20" fill="#374151"/>
+  <rect x="80" y="120" width="352" height="20" fill="#374151"/>
+  <circle cx="110" cy="120" r="8" fill="#ef4444"/>
+  <circle cx="134" cy="120" r="8" fill="#f59e0b"/>
+  <circle cx="158" cy="120" r="8" fill="#22c55e"/>
+
+  <!-- 标题 -->
+  <text x="256" y="126" font-family="SF Mono, monospace" font-size="14" fill="#9ca3af" text-anchor="middle">claude-code</text>
+
+  <!-- 命令行 -->
+  <text x="105" y="185" font-family="SF Mono, monospace" font-size="22" fill="#6b7280">$</text>
+  <text x="130" y="185" font-family="SF Mono, monospace" font-size="22" fill="url(#electric)">claude</text>
+  <rect x="230" y="165" width="14" height="24" rx="2" fill="url(#electric)">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- AI 芯片/处理器图案 -->
+  <g transform="translate(256, 285)">
+    <!-- 中心芯片 -->
+    <rect x="-50" y="-50" width="100" height="100" rx="12" fill="#1f2937" stroke="url(#electric)" stroke-width="3"/>
+
+    <!-- 芯片内部 AI 符号 -->
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#electric)" text-anchor="middle">AI</text>
+
+    <!-- 芯片引脚 - 上 -->
+    <rect x="-35" y="-65" width="8" height="20" fill="url(#electric)"/>
+    <rect x="-12" y="-65" width="8" height="20" fill="url(#electric)"/>
+    <rect x="12" y="-65" width="8" height="20" fill="url(#electric)"/>
+    <rect x="35" y="-65" width="8" height="20" fill="url(#electric)"/>
+
+    <!-- 芯片引脚 - 下 -->
+    <rect x="-35" y="45" width="8" height="20" fill="url(#electric)"/>
+    <rect x="-12" y="45" width="8" height="20" fill="url(#electric)"/>
+    <rect x="12" y="45" width="8" height="20" fill="url(#electric)"/>
+    <rect x="35" y="45" width="8" height="20" fill="url(#electric)"/>
+
+    <!-- 芯片引脚 - 左 -->
+    <rect x="-70" y="-30" width="20" height="8" fill="url(#electric)"/>
+    <rect x="-70" y="-8" width="20" height="8" fill="url(#electric)"/>
+    <rect x="-70" y="14" width="20" height="8" fill="url(#electric)"/>
+
+    <!-- 芯片引脚 - 右 -->
+    <rect x="50" y="-30" width="20" height="8" fill="url(#electric)"/>
+    <rect x="50" y="-8" width="20" height="8" fill="url(#electric)"/>
+    <rect x="50" y="14" width="20" height="8" fill="url(#electric)"/>
+  </g>
+
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998e"/>
+      <stop offset="100%" style="stop-color:#38ef7d"/>
+    </linearGradient>
+    <linearGradient id="glassBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#232526"/>
+      <stop offset="100%" style="stop-color:#414345"/>
+    </linearGradient>
+    <filter id="innerShadow">
+      <feOffset dx="0" dy="4"/>
+      <feGaussianBlur stdDeviation="4" result="offset-blur"/>
+      <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="color"/>
+      <feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- 金属质感背景 -->
+  <rect x="32" y="32" width="448" height="448" rx="100" ry="100" fill="url(#glassBg)"/>
+
+  <!-- 内部深色区域 -->
+  <rect x="64" y="64" width="384" height="384" rx="80" ry="80" fill="#1a1a1a" filter="url(#innerShadow)"/>
+
+  <!-- 简洁的命令提示符 -->
+  <g transform="translate(256, 256)">
+    <!-- $ 符号 -->
+    <text x="-80" y="25" font-family="SF Mono, Menlo, monospace" font-size="140" font-weight="600" fill="url(#mintGrad)">$</text>
+
+    <!-- 下划线光标 -->
+    <rect x="55" y="30" width="80" height="12" rx="6" fill="url(#mintGrad)">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+</svg>

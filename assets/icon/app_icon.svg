@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9a0"/>
+      <stop offset="100%" style="stop-color:#00b894"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景圆角矩形 -->
+  <rect x="32" y="32" width="448" height="448" rx="96" ry="96" fill="url(#bgGradient)"/>
+
+  <!-- 终端窗口框架 -->
+  <rect x="72" y="100" width="368" height="312" rx="20" ry="20" fill="#0d1117" stroke="#30363d" stroke-width="3"/>
+
+  <!-- 终端顶部栏 -->
+  <rect x="72" y="100" width="368" height="40" rx="20" ry="20" fill="#21262d"/>
+  <rect x="72" y="120" width="368" height="20" fill="#21262d"/>
+
+  <!-- 窗口控制按钮 -->
+  <circle cx="104" cy="120" r="10" fill="#f85149"/>
+  <circle cx="136" cy="120" r="10" fill="#f0b72f"/>
+  <circle cx="168" cy="120" r="10" fill="#3fb950"/>
+
+  <!-- 终端提示符 $ -->
+  <text x="100" y="210" font-family="monospace" font-size="48" font-weight="bold" fill="#8b949e">$</text>
+
+  <!-- Claude 光标/输入指示 - 闪烁效果 -->
+  <rect x="148" y="175" width="24" height="40" rx="4" fill="url(#glowGradient)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- AI 符号 - 简化的 Claude 特征（两个弧形代表对话/思考） -->
+  <g transform="translate(256, 300)">
+    <!-- 外层光环 -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="url(#glowGradient)" stroke-width="6" stroke-dasharray="110 330" transform="rotate(-30)"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="url(#glowGradient)" stroke-width="6" stroke-dasharray="110 330" transform="rotate(150)"/>
+
+    <!-- 中心点 -->
+    <circle cx="0" cy="0" r="24" fill="url(#glowGradient)"/>
+
+    <!-- 内部连接线 - 代表 AI 网络 -->
+    <circle cx="0" cy="0" r="12" fill="#1a1a2e"/>
+  </g>
+
+  <!-- 装饰性代码行 -->
+  <rect x="100" y="250" width="120" height="8" rx="4" fill="#484f58"/>
+  <rect x="100" y="270" width="80" height="8" rx="4" fill="#3fb950" opacity="0.6"/>
+
+</svg>
