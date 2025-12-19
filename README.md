@@ -8,6 +8,18 @@
   A mobile terminal app for remotely connecting to Claude Code.
 </p>
 
+<p align="center">
+  <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-3.0+-02569B?logo=flutter" alt="Flutter"></a>
+  <a href="https://github.com/sealovesky/claude-term/releases"><img src="https://img.shields.io/github/v/release/sealovesky/claude-term?color=brightgreen" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
+  <a href="https://github.com/sealovesky/claude-term/stargazers"><img src="https://img.shields.io/github/stars/sealovesky/claude-term?style=social" alt="Stars"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android-lightgrey" alt="Platform">
+  <img src="https://img.shields.io/badge/Claude%20Code-Integration-E8967A" alt="Claude Code">
+</p>
+
 [English](#english) | [中文](#中文) | [日本語](#日本語)
 
 ---
